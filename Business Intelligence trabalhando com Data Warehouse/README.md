@@ -1,116 +1,117 @@
 <h1>Business Intelligence: trabalhando com Data Warehouse</h1>
-
-A grande arte do BI é transformar dados em informação.
-
-
-Data Warehouse significa armazem de dados.
-
-- Integração de diversas fontes de dados.
-- Implementação das regras de negócio.
-- Limpeza de dados.
-- Análise ao longo do tempo.
-
-
-Como projetar um Data Warehouse:
-
-- "O que quero analisar?" Que tipo de informação eu preciso ter. Chamamos de Indicador / Medida ou Variavel.
-
-- "Como quero analisar?" Qual maneira quero vizualisar aquela informação. Chamamos de Dimensão.
-
-
-Com as perguntas finalizadas, temos as dimensões definidas assim como os indicadores. Faremos um documento chamado <strong>Matriz Dimensão X Indicador</strong>, que registrará o resultado das entrevistas.
-
-Matriz Dimensão X Indicador:
-
-- Nas linhas:
-	- Indicador: Qual informação quero ver (VENDAS, CUSTOS, LUCROS, etc).
-
-- Nas colunas:
-	- Dimensão: Como quero ver a informação (CLIENTE, EMPRESA, TEMPO, etc).  
-
-Marcar cruzamentos que fazem sentido entre Indicadores e Dimensão.
-
-Tabelas do Data Warehouse se divide em dois grandes grupos de tabela: <strong>Tabela Dimensão</strong> e <strong>Tabela Fatos</strong>.
-
-Tabela de Fato: 
-
-- Ela grava uma ocorrencia.
-- O conjunto dos indicadores que possuem os mesmo cruzamentos resultarão em tabelas chamadas "Tabelas de Fato".
-- Agrupar os indicadores e dimensões que tem cruzamento e colocar em uma tabela. As dimensões serão as chaves primarias da tabela de fato. 
-
-
-Detalhes de uma dimensão:
-
-- Todos os relacionamentos de entidades que se relacionam entre si, chamamos de dimensão.
-- Dentro do ramo de relacionamento de entidades, há algumas que possuem uma sequência de relacionamentos única. Esse grupo de entidades dentro da dimensão, chamamos de hierarquia.
-- Dentro da hierarquia temos uma entidade básica que chamamos de nível, e a ele podem estar associados atributos.
-
-Relação entre as entidades da dimensão:
-
-- "Qual a relação entre estas entidades?" Podemos ter relação de 1:1, 1:N e N:M.
-- Colocaremos as dimensões em uma matriz, repetindo as dimensões nas linhas e colunas e iremos verificar a relação entre elas. 
-- Tudo que for 1:N faz uma ligação.
-- O grupo de entidades que se formar depois das ligações serão chamadas de dimensão.
-
-Sempre a dimensão vai começar no nivel mais baixo de todos.
-
-
-Modelo Estrela (Star Schemas):
-- Modelo Desnormalizado.
-
-Modelo Floco de Neve (Snow Flake Schema):
-- Modelo Normalizado.
-
-
-<h2>Dimensões Irregulares:</h2>
-
-- Dimensões que podem apresentar buracos nas tabelas.
-- Podemos pegar uma informação anterior e repetir na tabela.
-
-Tabela Pai/Filho:
-
-- Criaremos uma tabela com duas colunas, uma chamada <strong>FILHO</strong> e a outra <strong>PAI</strong>.
-- Na coluna <strong>FILHO</strong> colocar sempre o elemento da dimensão e no campo <strong>PAI</strong> colocar o elemente a cima da linha da tabela.
-
-Atributos de esquerda, direita e de nível:
-
-- Existem alguns atributos que são muito importantes e que nós devemos representar na tabela pai/filho para facilitar a navegação dentro da dimensão. Esses atributos são reconhecidos como de esquerda, direita e de nível.
-- Os atributos de esquerda e direita são inteiros que identificam cada membro da dimensão que estão abaixo do nível em que este membro se encontra. Os atributos de nível identifica quantos níveis abaixo da hierarquia o membro da dimensão está localizado.
-- Estes atributos tem como função auxiliar na localização de membros da dimensão.
+<p>A grande arte do BI é transformar dados em informação.</p>
+<p>Data Warehouse significa armazém de dados.</p>
+<ul>
+	<li>Integração de diversas fontes de dados.</li>
+	<li>Implementação das regras de negócio.</li>
+	<li>Limpeza de dados.</li>
+	<li>Análise ao longo do tempo.</li>
+</ul>
+<p>Como projetar um Data Warehouse:</p>
+<ol>
+	<li><em>"O que quero analisar?"</em> Que tipo de informação eu preciso ter. Chamamos de Indicador / Medida ou Variável.</li>
+	<li><em>"Como quero analisar?"</em> Qual maneira quero visualizar aquela informação. Chamamos de Dimensão.</li>
+</ol>
+<p>Com as perguntas finalizadas, temos as dimensões definidas assim como os indicadores. Faremos um documento chamado <strong>Matriz Dimensão X Indicador</strong>, que registrará o resultado das entrevistas.</p>
+<h2>Matriz Dimensão X Indicador:</h2>
+<ul>
+	<li>Nas linhas:
+		<ul>
+			<li>Indicador: Qual informação quero ver (VENDAS, CUSTOS, LUCROS, etc).</li>
+		</ul>
+	</li>
+	<li>Nas colunas:
+		<ul>
+			<li>Dimensão: Como quero ver a informação (CLIENTE, EMPRESA, TEMPO, etc).</li>
+		</ul>
+	</li>
+</ul>
+<p>Marcar cruzamentos que fazem sentido entre Indicadores e Dimensão.</p>
+<p>Tabelas do Data Warehouse se dividem em dois grandes grupos de tabela: <strong>Tabela Dimensão</strong> e <strong>Tabela Fatos</strong>.</p>
+<p>Tabela de Fato:</p>
+<ul>
+	<li>Ela grava uma ocorrência.</li>
+	<li>O conjunto dos indicadores que possuem os mesmos cruzamentos resultarão em tabelas chamadas "Tabelas de Fato".</li>
+	<li>Agrupar os indicadores e dimensões que têm cruzamento e colocar em uma tabela. As dimensões serão as chaves primárias da tabela de fato.</li>
+</ul>
+<p>Detalhes de uma dimensão:</p>
+	<ul>
+		<li>Todos os relacionamentos de entidades que se relacionam entre si, chamamos de dimensão.</li>
+		<li>Dentro do ramo de relacionamento de entidades, há algumas que possuem uma sequência de relacionamentos única. Esse grupo de entidades dentro da dimensão, chamamos de hierarquia.</li>
+		<li>Dentro da hierarquia, temos uma entidade básica que chamamos de nível, e a ele podem estar associados atributos.</li>
+	</ul>
+	<p>Relação entre as entidades da dimensão:</p>
+	<ul>
+		<li><em>"Qual a relação entre estas entidades?"</em> Podemos ter relação de 1:1, 1:N e N:M.</li>
+		<li>Colocaremos as dimensões em uma matriz, repetindo as dimensões nas linhas e colunas e iremos verificar a relação entre elas. </li>
+		<li>Tudo que for 1:N faz uma ligação.</li>
+		<li>O grupo de entidades que se formar depois das ligações serão chamadas de dimensão.</li>
+	</ul>
+	<p>Sempre a dimensão vai começar no nivel mais baixo de todos.</p>
+	<p>Modelo Estrela (Star Schemas):</p>
+	<ul>
+		<li>Modelo Desnormalizado.</li>
+	</ul>
+	<p>Modelo Floco de Neve (Snow Flake Schema):</p>
+	<ul>
+		<li>Modelo Normalizado.</li>
+	</ul>
+	<h2>Dimensões Irregulares:</h2>
+	<ul>
+		<li>Dimensões que podem apresentar buracos nas tabelas.</li>
+		<li>Podemos pegar uma informação anterior e repetir na tabela.</li>
+	</ul>
+	<p>Tabela Pai/Filho:</p>
+	<ul>
+		<li>Criaremos uma tabela com duas colunas, uma chamada <strong>FILHO</strong> e a outra <strong>PAI</strong>.</li>
+		<li>Na coluna <strong>FILHO</strong> colocar sempre o elemento da dimensão e no campo <strong>PAI</strong> colocar o elemente a cima da linha da tabela.</li>
+	</ul>
+	<p>Atributos de esquerda, direita e de nível:</p>
+	<ul>
+		<li>Existem alguns atributos que são muito importantes e que nós devemos representar na tabela pai/filho para facilitar a navegação dentro da dimensão. Esses atributos são reconhecidos como de esquerda, direita e de nível.</li>
+		<li>Os atributos de esquerda e direita são inteiros que identificam cada membro da dimensão que estão abaixo do nível em que este membro se encontra. Os atributos de nível identifica quantos níveis abaixo da hierarquia o membro da dimensão está localizado.</li>
+		<li>Estes atributos tem como função auxiliar na localização de membros da dimensão.</li>
+	</ul>
 
 <strong>O uso de dimensões irregulares é comum em situações em que não sabemos quantos níveis teremos e nem como serão as relações entre os seus membros.</strong>
 
-Dimensão Tempo: 
-
-- Dimensão tempo é uma dimensão obrigatoria.
-- Granularidade e Periodicidade:
-	- Granularidade: é o nível de detalhamento ou nível que os dados estão resumidos no banco de dados.
-	- Periodicidade: é o tempo que as informações serão atualizadas no Data Warehouse.
-
-- Podemos representar a dimensão tempo da mesma maneira que as outras dimensões:
-	- Modelo Estrela.
-	- Modelo Floco de Neve.
-	- Tabela Pai/Filho.
-
-Se tiver dimensões com granularidades diferentes, deve-se criar tabela de fato diferentes.
-
+<h2>Dimensão Tempo:</h2>
+<ul>
+	<li>Dimensão tempo é uma dimensão obrigatória.</li>
+	<li>Granularidade e Periodicidade:
+		<ul>
+			<li>Granularidade: é o nível de detalhamento ou nível que os dados estão resumidos no banco de dados.</li>
+			<li>Periodicidade: é o tempo que as informações serão atualizadas no Data Warehouse.</li>
+		</ul>
+	</li>
+	<li>Podemos representar a dimensão tempo da mesma maneira que as outras dimensões:
+		<ul>
+			<li>Modelo Estrela.</li>
+			<li>Modelo Floco de Neve.</li>
+			<li>Tabela Pai/Filho.</li>
+		</ul>
+	</li>
+	<li>Se tiver dimensões com granularidades diferentes, deve-se criar tabela de fato diferentes.</li>
+</ul>
 
 <h2>Extract, Transform, Load - ETL:</h2>
-- Limpeza de dados.
-- LOOKUP: Criar codigos sequencial numerico.
-- UNION(DISTINCT).
-- Funções de transformação de dados.
-- Funções de datas.
-- Funções de strings.
-- Funções numéricas.
-- ODS(Operational Data Storage).
+<ul>
+	<li>Limpeza de dados.</li>
+	<li>LOOKUP: Criar códigos sequencial numérico.</li>
+	<li>UNION(DISTINCT).</li>
+	<li>Funções de transformação de dados.</li>
+	<li>Funções de datas.</li>
+	<li>Funções de strings.</li>
+	<li>Funções numéricas.</li>
+	<li>ODS(Operational Data Storage).</li>
+</ul>
 
+<h2>Performance de um Data Warehouse:</h2>
+<p>Para melhor performance de visualização de dados dentro de um Data Warehouse utilizamos o OLAPs (ONLINE ANALYTICAL PROCESS).</p>
 
-- Performace de um Data Warehouse:
-	- Para melhor performace de visualização de dados dentro de um Data Warehouse utilizamos o OLAPs 	(ONLINE ANALYTICAL PROCESS).
-
-
-- Variações do BI:
-	- Data minning
-	- Balance Scorecard
-	- Big Data
+<h2>Variações do BI:</h2>
+<ul>
+	<li>Data mining</li>
+	<li>Balance Scorecard</li>
+	<li>Big Data</li>
+</ul>
