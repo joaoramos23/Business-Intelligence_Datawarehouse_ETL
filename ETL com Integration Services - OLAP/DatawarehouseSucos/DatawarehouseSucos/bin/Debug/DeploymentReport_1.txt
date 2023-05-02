@@ -1,0 +1,15 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       Nenhum
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Nenhum
+
+** Ações do usuário
+     Criar
+       [dbo].[Dim_Cliente] (Tabela)
+
+** Ações de suporte

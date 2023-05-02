@@ -1,0 +1,19 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       Nenhum
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Nenhum
+
+** Ações do usuário
+     Criar
+       [dbo].[Dim_Categoria] (Tabela)
+       [dbo].[Dim_Marca] (Tabela)
+       [dbo].[Dim_Produto] (Tabela)
+       [dbo].[FK_Dim_Marca_Dim_Categoria] (Chave Estrangeira)
+       [dbo].[FK_Dim_Produto_Dim_Marca] (Chave Estrangeira)
+
+** Ações de suporte

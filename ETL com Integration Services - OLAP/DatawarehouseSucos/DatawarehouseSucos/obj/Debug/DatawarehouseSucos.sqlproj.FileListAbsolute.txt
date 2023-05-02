@@ -1,0 +1,6 @@
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services modelo de dados\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dacpac
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services modelo de dados\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dll
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services modelo de dados\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services modelo de dados\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.sqlproj.AssemblyReference.cache
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services modelo de dados\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services modelo de dados\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb

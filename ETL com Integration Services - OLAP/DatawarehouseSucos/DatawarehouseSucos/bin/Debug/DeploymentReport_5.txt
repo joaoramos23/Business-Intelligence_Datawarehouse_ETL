@@ -1,0 +1,37 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       Nenhum
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Nenhum
+
+** Ações do usuário
+     Criar
+       [dbo].[Fato_001] (Tabela)
+       [dbo].[Fato_002] (Tabela)
+       [dbo].[Fato_003] (Tabela)
+       [dbo].[Fato_004] (Tabela)
+       [dbo].[Fato_005] (Tabela)
+       [dbo].[FK_Fato_001_Dim_Cliente] (Chave Estrangeira)
+       [dbo].[FK_Fato_001_Dim_Produto] (Chave Estrangeira)
+       [dbo].[FK_Fato_001_Dim_Organizacional] (Chave Estrangeira)
+       [dbo].[FK_Fato_001_Dim_Fabrica] (Chave Estrangeira)
+       [dbo].[FK_Fato_001_Dim_Dia] (Chave Estrangeira)
+       [dbo].[FK_Fato_002_Dim_Cliente] (Chave Estrangeira)
+       [dbo].[FK_Fato_002_Dim_Produto] (Chave Estrangeira)
+       [dbo].[FK_Fato_002_Dim_Fabrica] (Chave Estrangeira)
+       [dbo].[FK_Fato_002_Dim_Dia] (Chave Estrangeira)
+       [dbo].[FK_Fato_003_Dim_Fabrica] (Chave Estrangeira)
+       [dbo].[FK_Fato_003_Dim_Dia] (Chave Estrangeira)
+       [dbo].[FK_Fato_004_Dim_Cliente] (Chave Estrangeira)
+       [dbo].[FK_Fato_004_Dim_Produto] (Chave Estrangeira)
+       [dbo].[FK_Fato_004_Dim_Organizacional] (Chave Estrangeira)
+       [dbo].[FK_Fato_004_Dim_Dia] (Chave Estrangeira)
+       [dbo].[FK_Fato_005_Dim_Produto] (Chave Estrangeira)
+       [dbo].[FK_Fato_005_Dim_Fabrica] (Chave Estrangeira)
+       [dbo].[FK_Fato_005_Dim_Dia] (Chave Estrangeira)
+
+** Ações de suporte
