@@ -1,0 +1,475 @@
+<Load xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100="http://schemas.microsoft.com/analysisservices/2008/engine/100" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl410="http://schemas.microsoft.com/analysisservices/2012/engine/410" xmlns:ddl410_410="http://schemas.microsoft.com/analysisservices/2012/engine/410/410" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:ddl600="http://schemas.microsoft.com/analysisservices/2013/engine/600" xmlns:ddl600_600="http://schemas.microsoft.com/analysisservices/2013/engine/600/600" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ParentObject><DatabaseID>OLAPSucos</DatabaseID></ParentObject><ObjectDefinition><Cube><Name>VENDAS</Name><ID>VENDAS</ID><CreatedTimestamp>2023-05-05T22:25:07.783333</CreatedTimestamp><LastSchemaUpdate>2023-05-06T00:03:00.526667</LastSchemaUpdate><ObjectVersion>20</ObjectVersion><ObjectID>2EE35AAD-7581-41FE-894D-700717A94DC7</ObjectID><Ordinal>25</Ordinal><PersistLocation>0</PersistLocation><System>false</System><DataFileList/><Description/><Annotations xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" xmlns:ddl600_600="http://schemas.microsoft.com/analysisservices/2013/engine/600/600" xmlns:ddl600="http://schemas.microsoft.com/analysisservices/2013/engine/600" xmlns:ddl410_410="http://schemas.microsoft.com/analysisservices/2012/engine/410/410" xmlns:ddl410="http://schemas.microsoft.com/analysisservices/2012/engine/410" xmlns:ddl100="http://schemas.microsoft.com/analysisservices/2008/engine/100">
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+                <Value>
+                  <dds xmlns="">
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="13841" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="15478" y="16298" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                      <font>
+                        <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61"/>
+                      </font>
+                      <mouseicon>
+                        <ddsxmlobjectstreamwrapper binary="6c74000000000000"/>
+                      </mouseicon>
+                    </diagram>
+                    <layoutmanager>
+                      <ddsxmlobj/>
+                    </layoutmanager>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Tempo" left="17308" top="7745" logicalid="27" controlid="1" masterid="0" hint1="0" hint2="0" width="7408" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000f01c000088130000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Dim_Tempo" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="25515" top="25184" logicalid="28" controlid="2" masterid="0" hint1="0" hint2="0" width="5318" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000c614000057070000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Dim_Fabrica" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Cliente" left="20" top="12447" logicalid="29" controlid="3" masterid="0" hint1="0" hint2="0" width="6006" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e00007617000088130000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Dim_Cliente" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Categoria" left="34940" top="20270" logicalid="30" controlid="4" masterid="0" hint1="0" hint2="0" width="5847" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000d716000057070000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Dim_Categoria" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Organizacional" left="9312" top="7400" logicalid="31" controlid="5" masterid="0" hint1="0" hint2="0" width="4710" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e000066120000f40d0000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Dim_Organizacional" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Marca" left="34940" top="15568" logicalid="32" controlid="6" masterid="0" hint1="0" hint2="0" width="5847" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000d7160000fe080000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Dim_Marca" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fato 004" left="8426" top="13372" logicalid="33" controlid="7" masterid="0" hint1="0" hint2="0" width="6482" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000521900004d0c0000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Fato_004" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Produto" left="27116" top="15145" logicalid="34" controlid="8" masterid="0" hint1="0" hint2="0" width="5424" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000301500004d0c0000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Dim_Produto" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fato 002" left="17691" top="24549" logicalid="35" controlid="9" masterid="0" hint1="0" hint2="0" width="5424" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000301500004d0c0000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Fato_002" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fato 001" left="17069" top="0" logicalid="36" controlid="10" masterid="0" hint1="0" hint2="0" width="6668" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e00000c1a000088130000"/>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Fato_001" vartype="8"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0"/>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="14608" top="9846" logicalid="37" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="4300" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_004_Dim_Dia]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="34" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="17308" y="10245"/>
+                        <point x="16108" y="10245"/>
+                        <point x="16108" y="13846"/>
+                        <point x="14908" y="13846"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="20103" top="12246" logicalid="38" controlid="12" masterid="0" hint1="0" hint2="0" width="1309" height="12603" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_002_Dim_Dia]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="9" sourceattachpoint="13" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="21012" y="12745"/>
+                        <point x="21012" y="18647"/>
+                        <point x="20403" y="18647"/>
+                        <point x="20403" y="24549"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="20103" top="4700" logicalid="39" controlid="13" masterid="0" hint1="0" hint2="0" width="1309" height="3545" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_001_Dim_Dia]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="10" sourceattachpoint="12" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="21012" y="7745"/>
+                        <point x="21012" y="6373"/>
+                        <point x="20403" y="6373"/>
+                        <point x="20403" y="5000"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="22815" top="25724" logicalid="40" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_002_Dim_Fabrica]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="9" sourceattachpoint="20" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="25515" y="26123"/>
+                        <point x="23115" y="26123"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="20653" top="4700" logicalid="41" controlid="15" masterid="0" hint1="0" hint2="0" width="7921" height="20984" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_001_Dim_Fabrica]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="10" sourceattachpoint="8" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="28174" y="25184"/>
+                        <point x="28174" y="15092"/>
+                        <point x="20953" y="15092"/>
+                        <point x="20953" y="5000"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5726" top="14548" logicalid="42" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_004_Dim_Cliente]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="31" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="6026" y="14947"/>
+                        <point x="7226" y="14947"/>
+                        <point x="7226" y="14946"/>
+                        <point x="8426" y="14946"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2624" top="16948" logicalid="43" controlid="17" masterid="0" hint1="0" hint2="0" width="16429" height="7901" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_002_Dim_Cliente]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="9" sourceattachpoint="11" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="3023" y="17447"/>
+                        <point x="3023" y="20998"/>
+                        <point x="18753" y="20998"/>
+                        <point x="18753" y="24549"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2624" top="4700" logicalid="44" controlid="18" masterid="0" hint1="0" hint2="0" width="16979" height="8247" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_001_Dim_Cliente]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="10" sourceattachpoint="10" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="3023" y="12447"/>
+                        <point x="3023" y="8724"/>
+                        <point x="19303" y="8724"/>
+                        <point x="19303" y="5000"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="37464" top="17570" logicalid="45" controlid="19" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Dim_Marca_Dim_Categoria]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="10" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="37863" y="20270"/>
+                        <point x="37863" y="17870"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8012" top="6100" logicalid="46" controlid="20" masterid="0" hint1="0" hint2="0" width="2305" height="2386" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Dim_Organizacional_Dim_Organizacional]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="5" sourceattachpoint="20" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="9312" y="8086"/>
+                        <point x="8312" y="8086"/>
+                        <point x="8312" y="6400"/>
+                        <point x="10017" y="6400"/>
+                        <point x="10017" y="7400"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11268" top="10473" logicalid="47" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_004_Dim_Organizacional]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="9" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="11667" y="10972"/>
+                        <point x="11667" y="13372"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10168" top="4700" logicalid="48" controlid="22" masterid="0" hint1="0" hint2="0" width="9985" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_001_Dim_Organizacional]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="10" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="10567" y="7400"/>
+                        <point x="10567" y="6200"/>
+                        <point x="19853" y="6200"/>
+                        <point x="19853" y="5000"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="32240" top="16320" logicalid="49" controlid="23" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Dim_Produto_Dim_Marca]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="8" sourceattachpoint="24" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="34940" y="16719"/>
+                        <point x="32540" y="16719"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="14608" top="15196" logicalid="50" controlid="24" masterid="0" hint1="0" hint2="0" width="12808" height="1923" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_004_Dim_Produto]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="7" sourceattachpoint="22" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="27116" y="16719"/>
+                        <point x="21012" y="16719"/>
+                        <point x="21012" y="15496"/>
+                        <point x="14908" y="15496"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="21753" top="17795" logicalid="51" controlid="25" masterid="0" hint1="0" hint2="0" width="8475" height="7054" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_002_Dim_Produto]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="9" sourceattachpoint="9" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="29828" y="18294"/>
+                        <point x="29828" y="21421"/>
+                        <point x="22053" y="21421"/>
+                        <point x="22053" y="24549"/>
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="21203" top="4700" logicalid="52" controlid="26" masterid="0" hint1="0" hint2="0" width="9025" height="10945" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"/>
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Fato_001_Dim_Produto]" vartype="8"/>
+                          <property name="Virtual" value="0" vartype="11"/>
+                          <property name="VisibleAP" value="0" vartype="3"/>
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="10" sourceattachpoint="8" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="29828" y="15145"/>
+                        <point x="29828" y="10073"/>
+                        <point x="21503" y="10073"/>
+                        <point x="21503" y="5000"/>
+                      </connector>
+                    </ddscontrol>
+                  </dds>
+                </Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+                <Value>true</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+                <Value>false</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+                <Value>true</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+                <Value>13841</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+                <Value>-5000</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+                <Value>20</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+                <Value>0</Value>
+              </Annotation>
+              <Annotation>
+                <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+                <Value>75</Value>
+              </Annotation>
+            </Annotations><LastProcessed>2023-05-06T00:06:10.98</LastProcessed><Language>1046</Language><Collation>Latin1_General_CI_AS</Collation><DefaultMeasure/><Visible>true</Visible><AggregationPrefix/><StorageMode>Molap</StorageMode><ProcessingMode>Regular</ProcessingMode><ProcessingPriority>0</ProcessingPriority><ScriptCacheProcessingMode>Regular</ScriptCacheProcessingMode><ScriptErrorHandlingMode>IgnoreNone</ScriptErrorHandlingMode><StorageLocation/><EstimatedRows>0</EstimatedRows><Source xsi:type="DataSourceViewBinding"><DataSourceViewID>DW SUCOS</DataSourceViewID></Source><ProactiveCaching><SilenceInterval>-PT1S</SilenceInterval><Latency>-PT1S</Latency><SilenceOverrideInterval>-PT1S</SilenceOverrideInterval><ForceRebuildInterval>-PT1S</ForceRebuildInterval><Enabled>false</Enabled><AggregationStorage>Regular</AggregationStorage><OnlineMode>Immediate</OnlineMode><Source xsi:type="ProactiveCachingInheritedBinding"><NotificationTechnique>Client</NotificationTechnique></Source></ProactiveCaching><Translations/><Dimensions><Dimension><ID>Fabrica</ID><Name>Fabrica</Name><DimensionID>Fabrica</DimensionID><Visible>true</Visible><HierarchyUniqueNameStyle>IncludeDimensionName</HierarchyUniqueNameStyle><MemberUniqueNameStyle>Native</MemberUniqueNameStyle><AllMemberAggregationUsage>Default</AllMemberAggregationUsage><Translations/><Attributes><Attribute><AttributeID>Codigo Da Fabrica</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Fabrica</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute></Attributes><Hierarchies><Hierarchy><HierarchyID>Hierarquia</HierarchyID><Enabled>true</Enabled><Visible>true</Visible><OptimizedState>FullyOptimized</OptimizedState></Hierarchy></Hierarchies></Dimension><Dimension><ID>Tempo</ID><Name>Tempo</Name><DimensionID>Tempo</DimensionID><Visible>true</Visible><HierarchyUniqueNameStyle>IncludeDimensionName</HierarchyUniqueNameStyle><MemberUniqueNameStyle>Native</MemberUniqueNameStyle><AllMemberAggregationUsage>Default</AllMemberAggregationUsage><Translations/><Attributes><Attribute><AttributeID>Codigo Do Dia</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Data</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Da Semana</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Nome Do Dia Da Semana</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Mes</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Nome Do Mes</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Mes e Ano</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Nome Do Mes e Ano</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Trimestre</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Nome Do Trimestre</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Trimestre e Ano</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Nome Do Trimestre e  Ano</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Semestre</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Nome Do Semestre</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Semestre e Ano</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Nome Do Semestre e Ano</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Ano</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Tipo Do Dia</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute></Attributes><Hierarchies><Hierarchy><HierarchyID>Hierarquia</HierarchyID><Enabled>true</Enabled><Visible>true</Visible><OptimizedState>FullyOptimized</OptimizedState></Hierarchy><Hierarchy><HierarchyID>Hierarquia 1</HierarchyID><Enabled>true</Enabled><Visible>true</Visible><OptimizedState>FullyOptimized</OptimizedState></Hierarchy></Hierarchies></Dimension><Dimension><ID>Produto</ID><Name>Produto</Name><DimensionID>Produto</DimensionID><Visible>true</Visible><HierarchyUniqueNameStyle>IncludeDimensionName</HierarchyUniqueNameStyle><MemberUniqueNameStyle>Native</MemberUniqueNameStyle><AllMemberAggregationUsage>Default</AllMemberAggregationUsage><Translations/><Attributes><Attribute><AttributeID>Codigo Do Produto</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Produto</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Tamanho</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Sabor</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Da Marca</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Marca</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Da Categoria</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Categoria</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute></Attributes><Hierarchies><Hierarchy><HierarchyID>Hierarquia</HierarchyID><Enabled>true</Enabled><Visible>true</Visible><OptimizedState>FullyOptimized</OptimizedState></Hierarchy></Hierarchies></Dimension><Dimension><ID>Cliente</ID><Name>Cliente</Name><DimensionID>Cliente</DimensionID><Visible>true</Visible><HierarchyUniqueNameStyle>IncludeDimensionName</HierarchyUniqueNameStyle><MemberUniqueNameStyle>Native</MemberUniqueNameStyle><AllMemberAggregationUsage>Default</AllMemberAggregationUsage><Translations/><Attributes><Attribute><AttributeID>Codigo Do Cliente</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Cliente</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Da Cidade</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Cidade</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Estado</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Estado</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Da Regiao</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Regiao</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Segmento</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Segmento</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute></Attributes><Hierarchies><Hierarchy><HierarchyID>Hierarquia</HierarchyID><Enabled>true</Enabled><Visible>true</Visible><OptimizedState>FullyOptimized</OptimizedState></Hierarchy><Hierarchy><HierarchyID>Hierarquia 1</HierarchyID><Enabled>true</Enabled><Visible>true</Visible><OptimizedState>FullyOptimized</OptimizedState></Hierarchy></Hierarchies></Dimension><Dimension><ID>Organizacional</ID><Name>Organizacional</Name><DimensionID>Organizacional</DimensionID><Visible>true</Visible><HierarchyUniqueNameStyle>IncludeDimensionName</HierarchyUniqueNameStyle><MemberUniqueNameStyle>Native</MemberUniqueNameStyle><AllMemberAggregationUsage>Default</AllMemberAggregationUsage><Translations/><Attributes><Attribute><AttributeID>Codigo Do Filho</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>false</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Codigo Do Pai</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute><Attribute><AttributeID>Organizacional</AttributeID><AggregationUsage>Default</AggregationUsage><AttributeHierarchyEnabled>true</AttributeHierarchyEnabled><AttributeHierarchyVisible>true</AttributeHierarchyVisible><AttributeHierarchyOptimizedState>FullyOptimized</AttributeHierarchyOptimizedState></Attribute></Attributes><Hierarchies/></Dimension></Dimensions><Kpis/><Actions/><StructureVersion>0</StructureVersion><DataVersion>20</DataVersion><CalcVersion>1</CalcVersion><LastBindingChange>1601-01-01T00:00:00</LastBindingChange><LastUpdate>2023-05-06T00:06:11.85</LastUpdate><MeasureGroupFileList>Fato 001.20.det.xml;Fato 002.20.det.xml;Fato 004.20.det.xml</MeasureGroupFileList><PerspectiveFileList/><AssemblyFileList>MdxScript.9.scr.xml</AssemblyFileList><PermissionFileList/></Cube></ObjectDefinition></Load>

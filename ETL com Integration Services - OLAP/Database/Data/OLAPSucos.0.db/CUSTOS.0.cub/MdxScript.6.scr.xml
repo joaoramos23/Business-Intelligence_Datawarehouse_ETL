@@ -1,0 +1,15 @@
+<Load xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100="http://schemas.microsoft.com/analysisservices/2008/engine/100" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl410="http://schemas.microsoft.com/analysisservices/2012/engine/410" xmlns:ddl410_410="http://schemas.microsoft.com/analysisservices/2012/engine/410/410" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:ddl600="http://schemas.microsoft.com/analysisservices/2013/engine/600" xmlns:ddl600_600="http://schemas.microsoft.com/analysisservices/2013/engine/600/600" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ParentObject><DatabaseID>OLAPSucos</DatabaseID><CubeID>CUSTOS</CubeID></ParentObject><ObjectDefinition><MdxScript><Name>MdxScript</Name><ID>MdxScript</ID><CreatedTimestamp>2023-05-05T22:51:15.553333</CreatedTimestamp><LastSchemaUpdate>2023-05-06T00:03:00.696667</LastSchemaUpdate><ObjectVersion>6</ObjectVersion><ObjectID>2F27FC65-B71F-4BE7-910C-AB4D57557972</ObjectID><Ordinal>6</Ordinal><PersistLocation>0</PersistLocation><System>false</System><DataFileList/><Description/><DefaultScript>true</DefaultScript><Commands><Command><Text>/*
+O comando CALCULATE controla a agregação de células folha no cubo.
+Se o comando CALCULATE for excluído ou modificado, os dados dentro do cubo serão afetados.
+Você deverá editar esse comando apenas se especificar manualmente a forma como o cubo é agregado.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Custo Total]
+ AS [Measures].[Custo Fixo] + [Measures].[Custo Variavel], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Custo Medio]
+ AS [Measures].[Custo Total] / [Measures].[Quantidade Vendida], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Variação da Meta Custo]
+ AS ((([Measures].[Custo Fixo] + [Measures].[Custo Variavel]) / [Measures].[Meta De Custo]) -1) * 100, 
+VISIBLE = 1  ; </Text></Command></Commands><CalculationProperties/></MdxScript></ObjectDefinition></Load>

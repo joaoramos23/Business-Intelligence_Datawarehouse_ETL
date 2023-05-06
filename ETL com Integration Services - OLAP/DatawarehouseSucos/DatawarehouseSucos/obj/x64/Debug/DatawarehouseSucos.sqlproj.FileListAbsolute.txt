@@ -1,0 +1,10 @@
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\bin\Output\DatawarehouseSucos.dacpac
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\bin\Output\DatawarehouseSucos.dll
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\bin\Output\DatawarehouseSucos.pdb
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\obj\x64\Debug\DatawarehouseSucos.sqlproj.AssemblyReference.cache
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\obj\x64\Debug\Model.xml
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\obj\x64\Debug\refactor.xml
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\obj\x64\Debug\postdeploy.sql
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\obj\x64\Debug\predeploy.sql
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\obj\x64\Debug\DatawarehouseSucos.dll
+C:\Users\jofin\Desktop\Business Intelligence_Datawarehouse_ETL\ETL com Integration Services - OLAP\DatawarehouseSucos\DatawarehouseSucos\obj\x64\Debug\DatawarehouseSucos.pdb
